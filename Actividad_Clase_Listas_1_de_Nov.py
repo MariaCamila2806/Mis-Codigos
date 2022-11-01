@@ -24,4 +24,3 @@ print()
 
 paises.sort(reverse=True)
 print(paises)
-print()
