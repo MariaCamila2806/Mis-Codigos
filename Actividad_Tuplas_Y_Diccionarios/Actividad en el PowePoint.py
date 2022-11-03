@@ -1,0 +1,16 @@
+nombre = input('Nombre del estudiante ')
+codigo = input('Digite su codigo ')
+apellidos = input('Apellidos del estudiante')
+nota1 = input('Digite nota ')
+nota2 = input('Digite nota ')
+nota3 = input('Digite nota ')
+persona = {'nombre': nombre, 'Codigo': codigo, 'apellidos': apellidos, 'nota1': nota1,'nota2': nota2,'nota3': nota3}
+print(persona['nombre'], persona['apellidos'], 'codigo', persona['Codigo'], 'y notas', persona['nota1'],persona['nota2'],persona['nota3'])
+nombre2 = input('Nombre del estudiante ')
+codigo2 = input('Digite su codigo ')
+apellidos2 = input('Apellidos del estudiante')
+nota21 = input('Digite nota ')
+nota22 = input('Digite nota ')
+nota23 = input('Digite nota ')
+persona2 = {'nombre': nombre2, 'Codigo': codigo2, 'apellidos': apellidos2, 'nota1': nota21,'nota2': nota22,'nota3': nota23}
+print(persona2['nombre'], persona2['apellidos'], 'codigo', persona2['Codigo'], 'y notas', persona2['nota1'],persona2['nota2'],persona2['nota3'])
